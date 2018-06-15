@@ -1,4 +1,4 @@
-package net.byteexception.chatsystem.main.network.utils;
+package net.byteexception.chatsystem.client.main.network.utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

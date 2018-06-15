@@ -1,8 +1,8 @@
-package net.byteexception.chatsystem.main.network.handler;
+package net.byteexception.chatsystem.client.main.network.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import net.byteexception.chatsystem.main.network.packet.Packet;
+import net.byteexception.chatsystem.client.main.network.packet.Packet;
 
 public class NetworkHandler extends SimpleChannelInboundHandler<Packet> {
 

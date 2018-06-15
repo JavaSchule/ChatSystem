@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ChatServer/pom.xml" />
+        <option value="$PROJECT_DIR$/ChatClient/pom.xml" />
       </list>
     </option>
   </component>

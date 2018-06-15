@@ -1,12 +1,12 @@
-package net.byteexception.chatsystem.main;
+package net.byteexception.chatsystem.client.main;
 
-import net.byteexception.chatsystem.main.network.Server;
-import net.byteexception.chatsystem.main.network.handler.NetworkHandler;
-import net.byteexception.chatsystem.main.network.handler.PacketDecoder;
-import net.byteexception.chatsystem.main.network.handler.PacketEncoder;
-import net.byteexception.chatsystem.main.network.utils.ConnectableAdress;
-import net.byteexception.chatsystem.main.utils.Contact;
-import net.byteexception.chatsystem.main.utils.Message;
+import net.byteexception.chatsystem.client.main.network.Server;
+import net.byteexception.chatsystem.client.main.network.handler.NetworkHandler;
+import net.byteexception.chatsystem.client.main.network.handler.PacketDecoder;
+import net.byteexception.chatsystem.client.main.network.handler.PacketEncoder;
+import net.byteexception.chatsystem.client.main.network.utils.ConnectableAdress;
+import net.byteexception.chatsystem.client.main.utils.Contact;
+import net.byteexception.chatsystem.client.main.utils.Message;
 
 import java.util.ArrayList;
 import java.util.List;

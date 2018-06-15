@@ -1,12 +1,12 @@
-package net.byteexception.chatsystem.main.network.handler;
+package net.byteexception.chatsystem.client.main.network.handler;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufInputStream;
 import io.netty.buffer.EmptyByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
-import net.byteexception.chatsystem.main.network.packet.Packet;
-import net.byteexception.chatsystem.main.network.registry.PacketRegistry;
+import net.byteexception.chatsystem.client.main.network.packet.Packet;
+import net.byteexception.chatsystem.client.main.network.registry.PacketRegistry;
 
 import java.util.List;
 

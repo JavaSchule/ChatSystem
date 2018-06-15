@@ -1,9 +1,9 @@
-package net.byteexception.chatsystem.main.network.packet;
+package net.byteexception.chatsystem.client.main.network.packet;
 
 import io.netty.buffer.ByteBufInputStream;
 import io.netty.buffer.ByteBufOutputStream;
 import io.netty.channel.Channel;
-import net.byteexception.chatsystem.main.network.packet.impl.SuccesPacket;
+import net.byteexception.chatsystem.client.main.network.packet.impl.SuccesPacket;
 
 import java.io.IOException;
 

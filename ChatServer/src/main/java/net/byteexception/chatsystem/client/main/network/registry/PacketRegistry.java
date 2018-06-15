@@ -1,7 +1,7 @@
-package net.byteexception.chatsystem.main.network.registry;
+package net.byteexception.chatsystem.client.main.network.registry;
 
 import lombok.Getter;
-import net.byteexception.chatsystem.main.network.packet.Packet;
+import net.byteexception.chatsystem.client.main.network.packet.Packet;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package net.byteexception.chatsystem.main.network;
+package net.byteexception.chatsystem.client.main.network;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
@@ -12,8 +12,7 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.util.SelfSignedCertificate;
-import net.byteexception.chatsystem.main.network.handler.PacketDecoder;
-import net.byteexception.chatsystem.main.network.utils.ConnectableAdress;
+import net.byteexception.chatsystem.client.main.network.utils.ConnectableAdress;
 
 import javax.net.ssl.SSLException;
 import java.security.cert.CertificateException;
